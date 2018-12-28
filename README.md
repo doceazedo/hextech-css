@@ -22,8 +22,8 @@ If you want to get started right away, the easiest method you can use is this HT
     <link rel="stylesheet" href="hextech.css">
   </head>
   <body>
-    <a href="http://signup.na.leagueoflegends.com/en" class="btn btn-primary">Button</a><br><br>
-    <a href="http://signup.na.leagueoflegends.com/en" class="btn btn-secondary">Another button</a>
+    <a href="#" class="btn btn-primary">Button</a><br><br>
+    <a href="#" class="btn btn-secondary">Another button</a>
   </body>
 </html>
 ```
