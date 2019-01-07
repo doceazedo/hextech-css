@@ -125,6 +125,10 @@ label {
 	display: inline-block;
 	position: relative;
 	padding-left: 20px;
+	user-select: none;
+	-webkit-user-select: none;     
+	-moz-user-select: none;
+	-ms-user-select: none;
 }
 	
 .checkbox label:before {  
@@ -144,6 +148,18 @@ input[type=checkbox] {
     margin-top: 2px;
 }
 	
-input[type=checkbox]:checked + .checkbox label:before {  
+input[type=checkbox]:checked + label:before {  
 	background: url('assets/checkbox.png') left center no-repeat;  
 } 
+
+.checkbox label:hover::before {
+	background: url('assets/checkbox-selected-hover.png') left center no-repeat;
+}
+	
+input[type=checkbox]:checked + label:hover::before {  
+	background: url('assets/checkbox-hover.png') left center no-repeat;
+}
+
+.checkbox label:hover {
+	color: #f0e6d2;
+}
