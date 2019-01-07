@@ -115,3 +115,35 @@ label {
 	background: linear-gradient(to bottom, #1e2328, #292d30);
 	border-image: linear-gradient(to bottom, #785A28, #c8aa6e) 1 stretch;
 }
+
+/* FORM CHECKBOX
+   ============================= */
+   
+
+.checkbox label {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	padding-left: 20px;
+}
+	
+.checkbox label:before {  
+	content: "";
+	width: 14px;
+	height: 14px;
+	position: absolute;  
+	left: 0;
+}
+	
+input[type=checkbox] {  
+    display: none;  
+}
+	
+.checkbox label:before {
+	background: url('assets/checkbox-selected.png') left center no-repeat;
+    margin-top: 2px;
+}
+	
+input[type=checkbox]:checked + .checkbox label:before {  
+	background: url('assets/checkbox.png') left center no-repeat;  
+} 
