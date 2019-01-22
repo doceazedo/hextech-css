@@ -1,3 +1,14 @@
+/* TITULO AQUI
+   ============================= */
+
+body {
+	width: 100%;
+	height: 100%;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
 /* FONTS
    ============================= */
 
@@ -75,7 +86,7 @@
 
 /* FORM INPUT
    ============================= */
-   
+
 div {
 	display: block;
 }
@@ -118,7 +129,6 @@ label {
 
 /* FORM CHECKBOX
    ============================= */
-   
 
 .checkbox label {
 	cursor: pointer;
@@ -162,4 +172,77 @@ input[type=checkbox]:checked + label:hover::before {
 
 .checkbox label:hover {
 	color: #f0e6d2;
+}
+
+/* TITLES AND TEXT
+   ============================= */
+
+h1, h2, h3, h4 {
+	font-family: "Beaufort";
+	font-weight: 300;
+	text-transform: uppercase;
+	margin: 0;
+    padding: 0;
+}
+
+h1 {
+	font-size: 2rem;
+	line-height: 1.125;
+}
+
+p {
+	font-family: "Spiegel-Regular", sans-serif;
+	font-size: 1.25rem;
+	line-height: 1.25;
+	margin: 0;
+	padding: 0;
+}
+
+/* STRUCTURES
+   ============================= */
+
+.container {
+	margin: 0 auto;
+	position: relative;
+}
+
+/* BANNER
+   ============================= */
+
+.banner {
+	align-items: stretch;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 50vh;
+	background: #000a14;
+}
+
+.banner-full {
+	min-height: 100vh;
+}
+
+.banner-hextech {
+	color: #fff;
+}
+
+.banner-body {
+	align-items: center;
+	display: flex;
+	flex-grow: 1;
+	flex-shrink: 0;
+	padding: 3rem 1.5rem;
+}
+
+.banner-body>.container {
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+.banner-text {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 50%;
+	left: 0;
 }
