@@ -1,15 +1,11 @@
-# Hextech CSS
-**You can preview the framework here:** http://gh.imlucas.com.br/hextech
+# Hextech CSS with Bulma
+**You can preview a demo here:** http://gh.imlucas.com.br/hextech/bulma
 
-Hextech is the name of the visual identity of the game League of Legends since 2016. As their client is made using web technologies, I though (and two other people with abandoned projects on GitHub) it would be a great idea to recreate it in CSS and share as just another CSS framework.
+![https://bulma.io](http://arquivos.imlucas.com.br/nuvem/made-with-bulma.png)
+
+This branch is a side version of hextech-css made with **Bulma v0.7.2**, an open source CSS framework based on Flexbox. Hextech is the name of the visual identity of the game League of Legends and this is a attempt to remake it.
 
 :warning: Note that Hextech CSS is **under development** and it's far to be complete. Anyway, feel free if you want to use it in your projects or help it grow up.
-
-## TO-DO List
-- [x] Buttons
-- [ ] Form controls
-- [ ] Slider
-- [ ] Structures
 
 ## Getting started
 If you want to get started right away, the easiest method you can use is this HTML template. Just copy/paste this code in a file and save it on your computer.
@@ -18,12 +14,17 @@ If you want to get started right away, the easiest method you can use is this HT
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="hextech.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="hextech-bulma.css">
   </head>
   <body>
-    <a href="#" class="btn btn-primary">Button</a><br><br>
-    <a href="#" class="btn btn-secondary">Another button</a>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Hello Hextech CSS!</h1>
+      <a class="button is-primary">Button</a>
+    </div>
+  </section>
   </body>
 </html>
 ```
