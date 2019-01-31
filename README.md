@@ -7,6 +7,10 @@ This branch is a side version of hextech-css made with **Bulma v0.7.2**, an open
 
 :warning: Note that Hextech CSS is **under development** and it's far to be complete. Anyway, feel free if you want to use it in your projects or help it grow up.
 
+## TO-DO List
+- [ ] is-secondary is-min
+- [ ] Fix navbar arrow color on hover
+
 ## Getting started
 If you want to get started right away, the easiest method you can use is this HTML template. Just copy/paste this code in a file and save it on your computer.
 
