@@ -28,7 +28,11 @@ Hextech CSS is a framework based in the style of the game League of Legends. Thi
 ## TO-DO List 📝
 * Make `is-secondary` button as big as `is-primary`
 * Add `is-min` for `is-secondary` button
+* Change `is-min` to `is-small` for consistency
 * Fix the hover color of the arrow on navbar
+* Make headers bold
+
+Do you want to suggest a feature or report an error? [Create a new issue](https://github.com/PxLucasF/hextech-css/issues).
 
 ## Getting started 🛠️
 The easiest way to install Hextech CSS is copying/pasting the following code in a file and saving it on your computer, just like we do with Bulma.
