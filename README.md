@@ -57,16 +57,16 @@ Almost every Hextech CSS features are Bulma modifications, so you can just refer
 #### Secondary button 👆
 We added the `is-secondary` class for buttons. You can use it exactly like any other button, so `<a class="button is-secondary">Example</a>` will result in this:
 
-![](http://arquivos.imlucas.com.br/nuvem/hextech/hextech-demo-secondary.png)
+![](http://arquivos.imlucas.com.br/nuvem/hextech/hextech-demo-is-secondary.png)
 
 #### Small button 🐛
-We also added `is-min` to make the `is-primary` button smaller **(this feature will be modified soon)**. So you can use `<a class="button is-primary">Tiny button</a>` to get this:
+We also added `is-tiny` to make a button smaller. So you can use `<a class="button is-secondary">Tiny button</a>` to get this:
 
-![](http://arquivos.imlucas.com.br/nuvem/hextech/hextech-demo-min.png)
+![](http://arquivos.imlucas.com.br/nuvem/hextech/hextech-demo-is-tiny.png)
 
 #### Full documentation 📰
 
-I pretend to document every class on the Wiki of this project as the project gets bigger. For now, you can refer to the [demo page](http://gh.imlucas.com.br/hextech).
+I pretend to document every class as the project gets bigger. For now, you can refer to the [demo page](http://gh.imlucas.com.br/hextech) and [Bulma official documentation](https://bulma.io/documentation).
 
 ## Disclaimer ⚠️
 
