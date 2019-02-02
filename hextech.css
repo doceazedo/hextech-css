@@ -1,4 +1,4 @@
-/*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
+/*! Hextech CSS | Made with bulma.io v0.7.2 | MIT License | github.com/PxLucasF/hextech-css */
 @-webkit-keyframes spinAround {
   from {
     -webkit-transform: rotate(0deg);
@@ -25,11 +25,29 @@
   src: url('fonts/Beaufort-Regular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 	   url('fonts/Beaufort-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
+@font-face {
+  font-family: 'Beaufort';
+  src: url('fonts/Beaufort-Bold.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	   url('fonts/Beaufort-Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Beaufort';
+  src: url('fonts/Beaufort-Italic.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	   url('fonts/Beaufort-Italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  font-style: italic;
+}
 
 @font-face {
   font-family: 'Spiegel';
   src: url('fonts/Spiegel-Regular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 	   url('fonts/Spiegel-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+  font-family: 'Spiegel';
+  src: url('fonts/Spiegel-Italic.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	   url('fonts/Spiegel-Italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  font-style: italic;
 }
 
 .delete, .modal-close, .is-unselectable, .button, .file, .breadcrumb, .pagination-previous,
@@ -2062,9 +2080,10 @@ a.box:active {
 .button.is-secondary {
   border: 3px solid;
   border-radius: 0;
-  padding: 3px 30px 0px;
+  height: 50px;
+  padding: 8px 30px 0px;
   color: #f0e6d2;
-  font-size: 16px;
+  font-size: 18px;
   background: #242731;
   box-shadow: 0 0 0 0 transparent;
   border-image: linear-gradient(to bottom,#f6c97f 0,#ca9d4b 100%);
@@ -2079,11 +2098,21 @@ a.box:active {
   border: 3px solid #eee2cc;
 }
 
-.button.is-primary.is-min {
+.button.is-primary.is-tiny {
   height: 40px;
   padding: 5px 20px 0px;
   border: 2px solid;
   border-image: linear-gradient(to bottom,#08abac 0,#01698b 100%);
+}
+
+.button.is-primary.is-tiny:hover:not([disabled]), .button.is-primary.is-hovered {
+  border: 2px solid rgba(192,252,253,.7);
+}
+
+.button.is-secondary.is-tiny {
+  padding: 3px 30px 3px;
+  height: auto;
+  font-size: 16px;
 }
 
 .button.is-primary.is-min:hover:not([disabled]), .button.is-primary.is-hovered {
@@ -5527,7 +5556,7 @@ a.tag:hover {
 }
 
 .dropdown-item {
-  color: #4a4a4a;
+  color: #c9aa71;
   display: block;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -6371,7 +6400,7 @@ a.list-item {
   }
   .navbar.is-dark .navbar-start .navbar-link::after,
   .navbar.is-dark .navbar-end .navbar-link::after {
-    border-color: #c9aa71;
+    border-color: whitesmoke;
   }
   .navbar.is-dark .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-dark .navbar-item.has-dropdown.is-active .navbar-link {
@@ -6847,7 +6876,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #4a4a4a;
+  color: #c9aa71;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -6938,7 +6967,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
 }
 
 .navbar-divider {
-  background-color: whitesmoke;
+  background-color: #292929;
   border: none;
   display: none;
   height: 2px;
@@ -7026,12 +7055,12 @@ a.navbar-item:hover, a.navbar-item.is-active,
     background-color: transparent !important;
   }
   .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
-    background-color: whitesmoke;
-    color: #0a0a0a;
+    background-color: #292929;
+    color: whitesmoke;
   }
   .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
-    background-color: whitesmoke;
-    color: #3273dc;
+    background-color: #292929;
+    color: whitesmoke;
   }
   .navbar-burger {
     display: none;
@@ -7081,10 +7110,10 @@ a.navbar-item:hover, a.navbar-item.is-active,
     margin-left: auto;
   }
   .navbar-dropdown {
-    background-color: white;
+    background-color: #121212;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    border-top: 2px solid #dbdbdb;
+    border-top: 2px solid #c9aa71;
     box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1);
     display: none;
     font-size: 0.875rem;
@@ -7102,12 +7131,12 @@ a.navbar-item:hover, a.navbar-item.is-active,
     padding-right: 3rem;
   }
   .navbar-dropdown a.navbar-item:hover {
-    background-color: whitesmoke;
-    color: #0a0a0a;
+    background-color: #292929;
+    color: whitesmoke;
   }
   .navbar-dropdown a.navbar-item.is-active {
-    background-color: whitesmoke;
-    color: #3273dc;
+    background-color: #292929;
+    color: whitesmoke;
   }
   .navbar.is-spaced .navbar-dropdown, .navbar-dropdown.is-boxed {
     border-radius: 6px;
@@ -7172,7 +7201,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
   }
   a.navbar-item.is-active,
   .navbar-link.is-active {
-    color: #0a0a0a;
+    color: #c9aa71;
   }
   a.navbar-item.is-active:not(:hover),
   .navbar-link.is-active:not(:hover) {
