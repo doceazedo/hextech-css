@@ -13,7 +13,7 @@
   </a>
   </a>
   <a href="https://github.com/PxLucasF/hextech-css/blob/master/hextech.css">
-    <img src="https://img.shields.io/badge/size-4.78_KB-01698b.svg?style=flat">
+    <img src="https://img.shields.io/badge/size-202_KB-01698b.svg?style=flat">
   </a>
   <a href="https://github.com/PxLucasF/hextech-css/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-01698b.svg?style=flat">
@@ -26,11 +26,6 @@
 Hextech CSS is a framework based in the style of the game League of Legends. This is built with **Bulma v0.7.2**, so all it facilities and features are included! Note that Hextech CSS is **currently in development**. Feel free to create pull requests, issues or fork it and do all your stuff.
 
 ## TO-DO List 📝
-* Make `is-secondary` button as big as `is-primary`
-* Add `is-min` for `is-secondary` button
-* Change `is-min` to `is-small` for consistency
-* Fix the hover color of the arrow on navbar
-* Make headers bold
 
 Do you want to suggest a feature or report an error? [Create a new issue](https://github.com/PxLucasF/hextech-css/issues).
 
