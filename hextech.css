@@ -2114,11 +2114,6 @@ a.box:active {
   height: auto;
   font-size: 16px;
 }
-
-.button.is-primary.is-min:hover:not([disabled]), .button.is-primary.is-hovered {
-  border: 2px solid rgba(192,252,253,.7);
-  box-shadow: 0 0 10px 2px rgba(192,252,253,.4), inset 0 0 5px 2px rgba(192,252,253,.3);
-}
   
 .button[disabled] {
   color: #5c5b57;
