@@ -21,7 +21,7 @@
 
 </p>
 
-<h2 align="center"><strong><a href="http://gh.imlucas.com.br/hextech">👉 Preview demo 👈</a></strong></h2>
+<h2 align="center"><strong><a href="https://gh.imlucas.com.br/hextech">👉 Preview demo 👈</a></strong></h2>
 
 Hextech CSS is a framework based in the style of the game League of Legends. This is built with **Bulma v0.7.2**, so all it facilities and features are included! Note that Hextech CSS is **currently in development**. Feel free to create pull requests, issues or fork it and do all your stuff.
 
