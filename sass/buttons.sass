@@ -1,0 +1,25 @@
+.button
+  display: inline-flex
+  min-width: 120px
+  padding: 2px
+  font-size: 16px
+  font-weight: 700
+  color: #cdbe91
+  background-image: linear-gradient(#7a5c29, #c8aa6e)
+  text-transform: uppercase
+  border: none
+  outline: none
+  cursor: pointer
+
+  span
+    width: 100%
+    padding: 6px 24px
+    background-image: linear-gradient(#040d15, #081119)
+    transition: background-image .2s ease
+
+  &:hover
+    background-image: linear-gradient(#c99d3e, #f0e6d7)
+    color: #f0e6d2
+
+    span
+      background-image: linear-gradient(#040d15, #433e2b)

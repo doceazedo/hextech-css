@@ -1,0 +1,292 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+*::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Beaufort';
+  src: url("../fonts/Beaufort-Regular.woff") format("woff"), url("../fonts/Beaufort-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Beaufort';
+  src: url("../fonts/Beaufort-Bold.woff") format("woff"), url("../fonts/Beaufort-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Spiegel';
+  src: url("../fonts/Spiegel-Regular.woff") format("woff"), url("../fonts/Spiegel-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Spiegel';
+  src: url("../fonts/Spiegel-Italic.woff") format("woff"), url("../fonts/Spiegel-Italic.ttf") format("truetype");
+  font-style: italic;
+}
+
+* {
+  font-family: Beaufort;
+}
+
+.row.is-mobile {
+  display: flex;
+}
+
+.row:not(:last-child) {
+  margin-bottom: calc(1.5rem - .75rem);
+}
+
+.row.is-multiline {
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: .75rem;
+  box-sizing: border-box;
+}
+
+.row.is-gapless .column {
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .column.is-1-mobile, .column.is-2-mobile, .column.is-3-mobile, .column.is-4-mobile, .column.is-5-mobile, .column.is-6-mobile, .column.is-7-mobile, .column.is-8-mobile, .column.is-9-mobile, .column.is-10-mobile, .column.is-11-mobile, .column.is-12-mobile {
+    flex: none;
+  }
+  .column.is-1-mobile {
+    width: 8.33333%;
+  }
+  .column.is-2-mobile {
+    width: 16.66667%;
+  }
+  .column.is-3-mobile {
+    width: 25%;
+  }
+  .column.is-4-mobile {
+    width: 33.33333%;
+  }
+  .column.is-5-mobile {
+    width: 41.66667%;
+  }
+  .column.is-6-mobile {
+    width: 50%;
+  }
+  .column.is-7-mobile {
+    width: 58.33333%;
+  }
+  .column.is-8-mobile {
+    width: 66.66667%;
+  }
+  .column.is-9-mobile {
+    width: 75%;
+  }
+  .column.is-10-mobile {
+    width: 83.33333%;
+  }
+  .column.is-11-mobile {
+    width: 91.66667%;
+  }
+  .column.is-12-mobile {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .row {
+    display: flex;
+  }
+  .column.is-1, .column.is-2, .column.is-3, .column.is-4, .column.is-5, .column.is-6, .column.is-7, .column.is-8, .column.is-9, .column.is-10, .column.is-11, .column.is-12, .column.is-1-tablet, .column.is-2-tablet, .column.is-3-tablet, .column.is-4-tablet, .column.is-5-tablet, .column.is-6-tablet, .column.is-7-tablet, .column.is-8-tablet, .column.is-9-tablet, .column.is-10-tablet, .column.is-11-tablet, .column.is-12-tablet {
+    flex: none;
+  }
+  .column.is-1, .column.is-1-tablet {
+    width: 8.33333%;
+  }
+  .column.is-2, .column.is-2-tablet {
+    width: 16.66667%;
+  }
+  .column.is-3, .column.is-3-tablet {
+    width: 25%;
+  }
+  .column.is-4, .column.is-4-tablet {
+    width: 33.33333%;
+  }
+  .column.is-5, .column.is-5-tablet {
+    width: 41.66667%;
+  }
+  .column.is-6, .column.is-6-tablet {
+    width: 50%;
+  }
+  .column.is-7, .column.is-7-tablet {
+    width: 58.33333%;
+  }
+  .column.is-8, .column.is-8-tablet {
+    width: 66.66667%;
+  }
+  .column.is-9, .column.is-9-tablet {
+    width: 75%;
+  }
+  .column.is-10, .column.is-10-tablet {
+    width: 83.33333%;
+  }
+  .column.is-11, .column.is-11-tablet {
+    width: 91.66667%;
+  }
+  .column.is-12, .column.is-12-tablet {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .column.is-1-desktop, .column.is-2-desktop, .column.is-3-desktop, .column.is-4-desktop, .column.is-5-desktop, .column.is-6-desktop, .column.is-7-desktop, .column.is-8-desktop, .column.is-9-desktop, .column.is-10-desktop, .column.is-11-desktop, .column.is-12-desktop {
+    flex: none;
+  }
+  .column.is-1-desktop {
+    width: 8.33333%;
+  }
+  .column.is-2-desktop {
+    width: 16.66667%;
+  }
+  .column.is-3-desktop {
+    width: 25%;
+  }
+  .column.is-4-desktop {
+    width: 33.33333%;
+  }
+  .column.is-5-desktop {
+    width: 41.66667%;
+  }
+  .column.is-6-desktop {
+    width: 50%;
+  }
+  .column.is-7-desktop {
+    width: 58.33333%;
+  }
+  .column.is-8-desktop {
+    width: 66.66667%;
+  }
+  .column.is-9-desktop {
+    width: 75%;
+  }
+  .column.is-10-desktop {
+    width: 83.33333%;
+  }
+  .column.is-11-desktop {
+    width: 91.66667%;
+  }
+  .column.is-12-desktop {
+    width: 100%;
+  }
+}
+
+.button {
+  display: inline-flex;
+  min-width: 120px;
+  padding: 2px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #cdbe91;
+  background-image: linear-gradient(#7a5c29, #c8aa6e);
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button span {
+  width: 100%;
+  padding: 6px 24px;
+  background-image: linear-gradient(#040d15, #081119);
+  transition: background-image .2s ease;
+}
+
+.button:hover {
+  background-image: linear-gradient(#c99d3e, #f0e6d7);
+  color: #f0e6d2;
+}
+
+.button:hover span {
+  background-image: linear-gradient(#040d15, #433e2b);
+}
+
+/*# sourceMappingURL=hextech.css.map */
